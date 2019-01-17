@@ -1,0 +1,960 @@
+/*
+	First color: #08526d
+	Second color: #ec1c23
+*/
+
+
+/* =========================Start Upper bar */
+
+.upper-bar
+{
+	background-color: #08526d;
+	color: #FFF;
+}
+
+.upper-bar .info
+{
+	margin: 15px 0;
+}
+
+@media (max-width: 576px){
+	.upper-bar .info:first-child
+	{
+		margin-bottom: 0
+	}
+}
+
+.upper-bar .info span
+{
+	color: #bfc6c9;
+	margin-right: 10px;
+}
+
+.upper-bar i
+{
+	margin-right: 5px;
+}
+
+.upper-bar .get-quote
+{
+	display: inline-block;
+	border: 1px solid #ec1c23;
+	padding: 2px 10px;
+	margin-left: 20px;
+	color: #FFF;
+}
+
+@media (max-width: 576px){
+	.upper-bar .get-quote
+	{
+		border: 0;
+		margin-left: 0
+	}
+}
+
+
+/* =========================End Upper bar */
+
+
+
+
+
+/* =========================Start navbar */
+
+.navbar-brand > span
+{
+	font-size: 22px;
+}
+
+.navbar-brand span:first-child
+{
+	color: #08526d;
+	font-size: 28px;
+	font-family: serif
+}
+
+.navbar-brand span:last-child
+{
+	color: #ec1c23;
+	font-size: 13px;
+	font-family: cursive
+}
+
+.navbar-nav .nav-link 
+{
+	font-size: 17px;
+	text-transform :uppercase;
+	margin-left: 18px;
+	color: #08526d !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link
+{
+	color: #ec1c23 !important;
+}
+
+/* =========================End navbar */
+
+
+
+
+/* =========================Start Slider */
+
+.silder
+{
+	background-color: #DDD
+}
+
+.silder .carousel-inner
+{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
+
+@media (max-width: 768px)
+{
+	.silder .carousel-inner
+	{
+		justify-content: center;
+	}
+}
+
+.silder .carousel-inner img
+{
+	position: absolute;
+	z-index: 3;
+	top: 180px;
+	left: 100px;
+}
+
+@media (max-width: 768px)
+{
+	.silder .carousel-inner img
+	{
+		max-width: 100%;
+		max-height: 40%;
+		left: auto;
+	}
+}
+
+.silder .carousel-inner h1
+{
+	position: absolute;
+	color: #FFF;
+	z-index: 3;
+	font-size: 40px;
+	max-width: 850px;
+	line-height: 1.5;
+	left: 100px
+}
+
+@media (max-width: 768px)
+{
+	.silder .carousel-inner h1
+	{
+		max-width: 100%;
+		left: auto;
+		text-align: center
+	}
+}
+
+.silder .carousel-inner h1 span
+{
+	background-color: #ec1c23;
+	color: #FFF;
+	display: inline-block;
+	padding: 2px 10px;
+}
+
+.silder .carousel-inner .overlay 
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.2);
+	z-index: 2
+}
+
+.silder .carousel-item
+{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+.silder .carousel-one
+{
+	background-image: url(../img/New/banner-4.jpg);
+}
+
+.silder .carousel-Two
+{
+	background-image: url(../img/New/banner-2.jpg);
+}
+
+.silder .carousel-Three
+{
+	background-image: url(../img/New/banner-6.jpg);
+}
+
+.silder .carousel-Four
+{
+	background-image: url(../img/New/banner-8.jpg);
+}
+
+.silder .carousel-indicators li
+{
+	height: 5px;
+	cursor: pointer;
+}
+
+.silder .carousel-indicators .active
+{
+	background-color: #ec1c23;
+}
+
+/* =========================End Slider */
+
+
+
+
+
+/* =========================Start features */
+
+.features
+{
+	margin-top: 60px;
+	
+}
+
+.features h2
+{
+	color: #08526d;
+	margin-bottom: 20px
+}
+
+.features h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.features i
+{
+	background-color: #ec1c23;
+	color: #FFF;
+	padding: 10px;
+	margin-bottom: 15px
+}
+
+.features h3
+{
+	color: #08526d;
+	font-family:cursive;
+}
+
+.features p
+{
+	text-align:left;
+	margin-bottom: 40px;
+}
+
+/* =========================End features */
+
+
+
+
+/* =========================Start overview */
+
+.overview
+{
+	margin-top: 60px;
+	padding: 35px;
+	background-color: #F0F5F7;
+}
+
+.overview h2
+{
+	color: #08526d;
+	margin-bottom: 30px
+}
+
+@media (max-width: 992px)
+{
+	.overview h2
+	{
+		font-size: 30px;
+		margin-bottom: 18px
+	}
+}
+
+.overview h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.overview p
+{
+	font-size:20px;
+	margin-bottom: 25px;
+}
+
+@media (max-width: 992px)
+{
+	.overview p
+	{
+		width: 100%
+	}
+}
+
+.overview h4
+{
+	letter-spacing: 3px;
+	color: #acacac;
+	margin-bottom: 50px;
+}
+
+.overview button
+{
+	background-color: #ec1c23;
+	color: #FFF;
+	padding: 10px 30px;
+	font-size: 20px;
+	font-weight: normal;
+	border: 1px solid #ec1c23;
+	cursor: pointer;
+}
+/* =========================End overview */
+
+
+
+/* =========================Start Featured-Work */
+
+.Featured-Work
+{
+	margin-top: 60px;
+	padding: 35px;	
+}
+
+.Featured-Work h2
+{
+	color: #08526d;
+	margin-bottom: 30px
+}
+
+.Featured-Work h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.Featured-Work ul
+{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.Featured-Work ul li
+{
+	border: 2px solid #08526d;
+	color: #08526d;
+	padding: 12px;
+	margin-left: 12px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	cursor: pointer;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+.Featured-Work ul li.active,
+.Featured-Work ul li:hover
+{
+	background-color: #ec1c23;
+	border: 2px solid #ec1c23;
+	color: #FFF;
+}
+
+
+.Featured-Work .shuffle-images
+{
+	margin-top: 40px;
+}
+
+.Featured-Work .shuffle-images .row
+{
+	margin: 0;
+}
+
+.Featured-Work .shuffle-images .row .col-md
+{
+	padding: 0;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+.Featured-Work .row img
+{
+	width: 100%
+}
+
+
+/* =========================End Featured-Work */
+
+
+
+
+/* =========================Start Latest-Posts */
+
+.Latest-Posts
+{
+	margin-top: 60px;
+
+}
+
+.Latest-Posts h2
+{
+	color: #08526d;
+	margin-bottom: 30px
+}
+
+.Latest-Posts h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.Latest-Posts .card
+{
+	margin-bottom: 25px;
+}
+
+.Latest-Posts .card .card-title
+{
+	font-size: 22px;
+	line-height: 1.5;
+	color: #08526d;
+}
+
+.Latest-Posts .card .card-text
+{
+	color: #787878;
+}
+
+.Latest-Posts .card a
+{
+	color: #ec1c23;
+	font-weight: bold;
+}
+/* =========================End Latest-Posts */
+
+
+
+
+/* =========================Start Testimonials */
+
+.Testimonials
+{
+	margin-top: 60px;
+	color: #FFF;
+	background-image: url(../img/work/9.jpg);
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	position: relative;
+}
+
+.Testimonials h2
+{
+	padding-top: 40px;
+	margin-bottom: 0
+}
+
+.Testimonials h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.Testimonials .overlay
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.6);
+	z-index: 2;
+	padding: 40px;
+}
+
+.Testimonials .continer-fluid
+{
+	position: relative;
+	z-index: 3
+}
+
+.carousel-control-prev,
+.carousel-control-next
+{
+	z-index: 4;
+}
+
+.Testimonials .carousel-caption
+{
+	top: 50%;
+	margin-top: -250px;
+}
+
+.Testimonials .carousel-caption img
+{
+	margin-bottom: 20px;
+	width: 200px;
+	height: 200px;
+	border: 4px solid #FFF;
+	padding: 3px;
+	border-radius: 50% !important;	
+}
+
+@media (max-width: 576px)
+{
+	.Testimonials .carousel-caption img
+	{
+		width: 140px;
+		height: 140px;
+	}
+}
+
+.Testimonials .carousel-caption h5
+{
+	margin-bottom: 20px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon
+{
+	background-color: #ec1c23;
+	width: 50px;
+	height: 50px;
+}
+
+@media (max-width: 576px)
+{
+	.carousel-control-next-icon,
+	.carousel-control-prev-icon
+	{
+		width: 20px;
+		height: 20px;
+	}
+	
+}
+
+.carousel-control-prev-icon
+{
+	background-color: #000;
+}
+
+.Testimonials .carousel-indicators li 
+{
+	height: 5px;
+	cursor: pointer;
+}
+
+
+/* =========================End Testimonials */
+
+
+
+
+/* ========================Start Pricing-Table */
+
+.Pricing-Table
+{
+	margin-top: 60px;
+	background-color: #F7F7F7;
+}
+
+.Pricing-Table h2
+{
+	padding-top: 40px;
+	margin-bottom: 40px
+}
+
+.Pricing-Table p
+{
+	margin-bottom: 60px;
+}
+
+.Pricing-Table h2 span
+{
+	color: #ec1c23;
+	font-family:cursive;
+}
+
+.Pricing-Table h4
+{
+	margin-top: 40px;
+}
+
+
+.Pricing-Table .card-body
+{
+	padding: 0
+}
+
+.Pricing-Table .card
+{
+	margin-bottom: 25px;
+}
+
+.Pricing-Table .card .card-title
+{
+	font-size: 22px;
+	line-height: 1.5;
+	color: #08526d;
+}
+
+.Pricing-Table .card p
+{
+	color: #08526d;
+	margin-bottom: 5px;
+	background-color: #F7F7F7;
+	padding: 10px;
+	margin: 30px 0 30px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.Pricing-Table .card p span
+{
+	color: #ec1c23;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #FFF
+}
+
+.Pricing-Table .list-group-item
+{
+	/*border: none;*/
+}
+.Pricing-Table .card a
+{
+	background-color: #ec1c23;
+	color: #FFF;
+	font-weight: bold;
+	display: inline-block;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	text-transform: uppercase
+}
+
+.Pricing-Table .card.pedia-Derma
+{
+	position: relative;
+	top: -20px;
+}
+
+@media (max-width: 992px)
+{
+	.Pricing-Table .card.pedia-Derma
+	{
+		top: 0;
+	}	
+}
+
+.Pricing-Table .card.pedia-Derma .card-text
+{
+	background-color: #ec1c23;
+	color: #FFF;
+}
+
+.Pricing-Table .card.pedia-Derma a
+{
+	background-color: #08526d;
+}
+
+/* =========================End Pricing-Table */
+
+
+
+
+
+/* =========================Start Choose-Us */
+
+.Choose-Us
+{
+	margin-top: 60px;
+}
+
+.Choose-Us img
+{
+	max-width: 100%;
+}
+
+.Choose-Us .info
+{
+	padding: 0
+}
+
+.Choose-Us .info:last-child
+{
+	background-color: #08526d;
+	color: #FFF;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+@media (max-width: 992px) 
+
+{
+	.Choose-Us .info:last-child
+	{
+	    padding-top: 0px;	
+		padding-bottom: 20px;
+	}
+}
+
+.Choose-Us .h1
+{
+	margin: 40px;
+}
+
+.Choose-Us p
+{
+	margin: 40px;
+	line-height: 2;
+	font-size: 20px
+}
+
+.Choose-Us .read-More
+{
+	display: inline-block;
+	padding: 8px 25px;
+	margin: 0 0 0 40px;
+	background-color: #ec1c23;
+	color: #FFF;
+	font-size: 20px;
+	font-family: cursive;
+	text-decoration: none;
+}
+
+
+/* =========================End Choose-Us */
+
+
+/* =========================Start Statistics */
+
+.Statistics
+{
+	margin-top: 60px;
+	padding: 80px 0;
+	color: #08526d
+}
+
+.Statistics .number
+{
+	display: block;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.Statistics p
+{
+	color: #ec1c23;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0;
+}
+
+.Statistics .stat-box
+{
+	margin-bottom: 20px;
+}
+
+/* =========================End Statistics */
+
+
+
+
+
+/* =========================Start Contact Us */
+
+.Contact-Us
+{
+	padding: 70px 0;
+	background-color: #ec1c23;
+	color: #FFF;
+	font-size: 25px;
+}
+
+.Contact-Us p
+{
+	margin: 0;
+}
+
+@media (max-width: 768px)
+{
+	.Contact-Us p
+	{
+		margin-bottom: 30px;
+	}	
+}
+
+.Contact-Us a
+{
+	color: #FFF;
+	border: 2px solid #FFF;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+/* =========================End Contact Us */
+
+
+
+/* =========================Start footer*/
+
+
+.footer
+{
+	margin-top: 60px;
+}
+
+.footer .site-info p
+{
+	margin-top: 30px;
+	color: #727272;
+	margin-bottom: 20px;
+}
+
+.footer .site-info a
+{
+	color: #ec1c23;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.footer .site-info a:before
+{
+	font-family: 'fontAwesome';
+	content: "\f138";
+	display: inline-block;
+	margin-right: 5px;
+}
+
+
+.footer .helpfull-links h2,
+.footer .contact h2
+{
+	margin-top: 80px;
+	margin-bottom: 110px;
+	color: #08526d;
+}
+
+.footer .helpfull-links ul li:before
+{
+	font-family: 'fontAwesome';
+	content: "\f054";
+	display: inline-block;
+	margin-right: 5px;
+	color: #ec1c23;
+	font-size: 10px;
+	position: relative;
+	top: -1px;
+}
+
+
+.footer .contact ul li
+{
+	margin-bottom: 10px
+}
+
+.footer .contact ul li:before
+{
+	font-family: 'fontAwesome';
+	content: "\f054";
+	display: inline-block;
+	margin-right: 5px;
+	color: #ec1c23;
+	font-size: 10px;
+	position: relative;
+	top: -1px;
+}
+
+@media (max-width: 992px)
+{
+	.footer .helpfull-links h2,
+	.footer .contact h2
+	{
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+	
+	.footer .contact ul li
+	{
+		margin-bottom: 15px
+	}
+}
+
+/* =========================End footer*/
+
+
+
+/* =========================Start Start copyright*/
+
+.copyright
+{
+	margin-top: 60px;
+	border-top: 2px solid #DDD;
+	padding: 25px
+}
+
+.copyright span
+{
+	color: #ec1c23;
+	font-family: cursive;
+}
+
+.copyright ul
+{
+	margin: 0
+}
+
+.copyright ul li
+{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+.copyright ul li a
+{
+	color: #777;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 20px
+}
+
+@media (max-width: 992px)
+{
+	.copyright ul li a
+	{
+		margin-top: 20px;
+	}
+
+}
+
+
+/* =========================End Start copyright*/
+
+
+
+
