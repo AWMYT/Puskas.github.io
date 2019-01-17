@@ -1,0 +1,86 @@
+/*
+
+I have to options for container: 
+
+    1- <div class="container"> width = 1170px
+
+    2- <div class="container-fluid"> = full width  
+
+=======================================================*/
+/*
+** Type Of Screens:
+    
+1- Large Screen         = lg
+2- Medium Screen        = md
+3- Small Screen         = sm
+4- Extra Small Screen   = xs
+
+
+Grid System = 12 unit
+
+col = column 
+
+=========================================================---*/
+/* Grid System:
+
+
+1- Grid System Hidden / Visible
+
+visible = Show
+hidden = Hide
+
+hidden-(screen name)// hideen-lg
+visible-(screen name)-(block OR inline OR inline-block)// visible-md-block
+
+
+** hidden: romove classes from screens
+
+    - hidden-lg = will remove this class when display in Large Screen
+    - hidden-md = will remove this class when display in Medium Screen
+    - hidden-sm = will remove this class when display in Small Screen
+    - hidden-xs = will remove this class when display in Extra Small Screen
+
+
+** 2- visible: Dispaly classes on screens
+
+    - visible-sm-block = will display this class only when display in Small Screen
+
+
+** 3- Grid System Column Reset:
+
+    -we used class clearfix = Used to handle float
+    - and you can select which screen do you want to apply
+
+        Ex:<div class="clearfix visible-md-block"></div>
+        I will apply only in medium screen.
+
+
+** 4- Grid System Column Offset:
+
+        - offset = Margin-left ( if you want to orgnize your columns ).
+
+** 5- Grid System Column Ordering:
+
+        - we used Push = Offset to right 
+              and Pull = Offset to left
+
+** 6- Grid System Column Nesting: شرح كيفية عمل جريد فرعي من الجريد الرئيسي
+
+        - img-responsive
+        - lead: we uesd with paragrph
+        - center-block : margin: auto
+
+Expalin : https://getbootstrap.com/docs/3.3/css/
+
+==============================================================*/
+
+
+
+/* Navbar:
+
+navbar-inverse : يعكس الالوان
+navbar-fixed-top: تثبيت اعلى الصفحة
+navbar-fixed-botton: تثبيت اسفل الصفحة
+navbar-left : ناحية الشمال
+navbar-right: تاحية اليمين
+==============================================================*/

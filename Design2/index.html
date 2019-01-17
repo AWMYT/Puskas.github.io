@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--For Internet Explorer [IE Compatibility]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First Mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootsrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/bootstrap_rtl.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/Style.css" />
+    <link rel="stylesheet" href="css/Media.css" />
+    <link rel="stylesheet" href="css/Themes.css" />
+    <link rel="stylesheet" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="icon" href="img/favicon-or.ico" />
+    
+    <!-- Google Fonts-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Slabo+27px">
+
+    
+    <!--[if lt IE 9]> 
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+  
+  <!--
+   
+   <div class="container">
+       <div class="row">
+          <!-- 4 Products in large screen 12 / 4 = 3-->
+          <!-- 3 Products in medium screen 12 / 3 = 4-->
+          <!-- 2 Products in small screen-- 12 / 2 = 6>
+          <!-- 1 Product in  Extra-small (Mobile screen) screen full unit = 12
+
+           <div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 hidden-sm">
+               <div class="os">
+                   Product #1 will be hidden when small screen comes
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-lg-offset-3 col-md-4 col-sm-6 col-xs-12">
+               <div class="os">
+                   Product #2
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               <div class="os">
+                   Product #3
+               </div>
+           </div>
+           
+           <div class="clearfix visible-md-block"></div>
+           
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+               <div class="os">
+                   Product #4
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="warining visible-sm-block">
+                     Your Screen Is Too Small
+                </div>
+           </div>
+           
+           <div class="col-lg-3 col-lg-offset-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="warining">
+                     Product #5
+                </div>
+           </div>
+           
+           <div class="col-lg-6 col-lg-offset-3 col-md-4 col-sm-6 col-xs-12">
+                <div class="warining">
+                     Product #6
+                </div>
+           </div>
+           
+           <div class="col-lg-9 col-md-4 col-sm-6 col-xs-12">
+                <div class="warining">
+                     Product #7
+                </div>
+           </div>
+
+           <div class="col-lg-6 col-lg-offset-3 col-lg-pull-3 col-md-4 col-sm-6 col-xs-12">
+               <div class="os">
+                   Product #8
+               </div>
+           </div>
+           
+           <div class="col-lg-6 col-lg-push-6 col-md-push-0"> 
+               <div class="os">
+                   Product #9
+               </div>
+           </div>
+           
+           <div class="col-lg-6 col-lg-pull-6 col-md-pull-0">
+               <div class="os">
+                   Product #10
+               </div>
+           </div> -->
+           
+  <!-- Using Grid System Column Nesting         
+           <div class="col-lg-12">
+               <div class="row">
+                   
+                   <div class="col-lg-3">
+                       <img class="img-responsive center-block" src="img/work-8.jpg" alt="Food" />
+                   </div>
+                   
+                   <div class="col-lg-9">
+                       <H1>This Is A Good Food</H1>
+                       <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque aliquam, delectus repudiandae ipsa porro autem incidunt minima necessitatibus explicabo sed! Delectus quis, quia amet iure consectetur molestiae, illum quos expedita.</p>
+                   </div>
+                   
+               </div>
+           </div>
+       </div>
+   </div> -->
+
+  <section class="option-box">
+    <div class="color-option">
+        <h4>Color Option</h4>
+        <ul class="list-unstyled">
+            <li data-value="css/Themes.css"></li>
+            <li data-value="css/Themes-green.css"></li>
+            <li data-value="css/Themes-lemon.css"></li>
+            <li data-value="css/Themes-purple.css"></li>
+        </ul>
+    </div>
+        <i class="fa fa-gear fa-3x gear-check"></i> 
+
+</section>
+  
+
+<!-- ==================================================================== -->
+
+  
+  
+   
+   <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+   
+  <div class="container"><!-- Full width -->
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand hvr-grow" href="#">Puskas</a>
+    </div>
+    
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        
+        <li><a class="hvr-pulse" href="#">About Us</a></li>
+         <li><a class="hvr-pulse" href="FAQ.html">FAQ</a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Emergeny</a></li>
+            <li><a href="#">OPD Services</a></li>
+            <li><a href="#">IP Services</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Laboratory</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">X-RAY</a></li>
+          </ul>
+        </li>
+        
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+      
+      
+     <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>-->
+      
+      
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>-->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- ==================================================================== -->
+
+
+
+<div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/banner/banner-1.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>TEETH WHITENING</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim fugiat quo laudantium molestias accusantium ad nesciunt quas dolore cupiditate earum rerum perspiciatis veritatis sed ab, impedit culpa inventore, assumenda, minima?</p>
+      <div class="btn btn-primary">Read More...</div>
+      <div class="btn btn-danger">Make Reservation Now!</div>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="img/banner/Dn-1.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>DENTAL IMPLANTS</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellendus, modi quam consequatur, aperiam doloremque magni autem blanditiis accusantium expedita ipsam eos quia illo excepturi soluta at in a cumque!</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="img/banner/Dn-2.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>CONTACT LENSES - HOLLYWOOD SMILE</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi voluptatem voluptates blanditiis, sed vel esse quia repudiandae accusamus suscipit, iure nam quasi cumque quam id eveniet veritatis numquam odit nemo.</p>
+      </div>
+    </div>
+    
+    <div class="item">
+      <img src="img/banner/Dn-3.jpg" alt="...">
+      <div class="carousel-caption">
+        <h1>ALL TYPES OF FITTINGS</h1>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam vero impedit iusto porro. Impedit blanditiis consequuntur cumque cupiditate est autem. Eius quos voluptates earum inventore vitae veritatis quaerat, laudantium dolorem!</p>
+      </div>
+    </div>
+
+    </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<!-- ==================================================================== -->
+
+
+<section class="about text-center wow bounceIn" data-wow-duration="4s" data-wow-delay=".5s" data-wow-offset="200" data-wow-iteration="3">
+   <div class="container">
+        <h2 class="hvr-shadow-radial ab-us">Meet Our Patients</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, <strong>consectetur adipisicing elit.</strong> Ipsa sapiente illum inventore autem doloribus <span>asperiores adipisci,</span> incidunt expedita cumque recusandae eaque consequuntur dignissimos, veniam dolore deserunt voluptas!</p>
+   </div>
+</section>
+
+
+<!-- ==================================================================== -->
+
+
+
+<section class="Features text-center">
+    <div class="container">
+        <h2 class="hvr-underline-from-center">Our Features</h2>
+          
+           <div class="row">
+              
+               <div class="col-lg-3 col-md-6">
+                  <div class="feat hvr-buzz-out wow bounceInLeft" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="300">
+                       <span class="glyphicon glyphicon-briefcase"></span>
+                       <h4>Services</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum autem esse minus suscipit, dolor distinctio nihil ut quasi at harum eos, ratione deserunt fugit, excepturi expedita facilis molestiae .</p>
+                  </div>
+               </div>
+               
+               <div class="col-lg-3 col-md-6">
+                  <div class="feat hvr-buzz-out wow bounceInUp" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="300">
+                       <span class="glyphicon glyphicon-dashboard"></span>
+                       <h4>Dental</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum autem esse minus suscipit, dolor distinctio nihil ut quasi at harum eos, ratione deserunt fugit, excepturi expedita facilis molestiae .</p>
+                  </div>
+               </div>
+               
+               <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInUp" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="300">
+                       <span class="glyphicon glyphicon-leaf"></span>
+                       <h4>Dermatology</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum autem esse minus suscipit, dolor distinctio nihil ut quasi at harum eos, ratione deserunt fugit, excepturi expedita facilis molestiae .</p>
+                  </div>
+               </div>
+               
+               <div class="col-lg-3 col-md-6">
+                  <div class="feat wow bounceInRight" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="300">
+                       <span class="glyphicon glyphicon-camera"></span>
+                       <h4>Internal Med.</h4>
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate rerum autem esse minus suscipit, dolor distinctio nihil ut quasi at harum eos, ratione deserunt fugit, excepturi expedita facilis molestiae .</p>
+                  </div>
+               </div>
+               
+           </div>
+           
+    </div>
+</section>
+
+
+
+
+<!-- ==================================================================== -->
+
+
+
+<section class="Testimonials text-center wow flipInY" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="350">
+   <div class="container">
+       <h1>What Our Clients Says?</h1>
+       
+        <div id="carousel-testimonials" class="carousel slide" data-ride="carousel">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+           
+            <div class="item active">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellendus, modi quam consequatur, aperiam doloremque magni autem blanditiis accusantium expedita ipsam eos quia illo excepturi soluta at in a cumque!</p>
+                <span>Ahmed Fathi</span>
+            </div>
+
+            <div class="item">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellendus, modi quam consequatur, aperiam doloremque magni autem blanditiis accusantium expedita ipsam eos quia illo excepturi soluta at in a cumque!</p>
+                <span>Malak Ahmed</span>
+            </div>
+            
+            <div class="item">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellendus, modi quam consequatur, aperiam doloremque magni autem blanditiis accusantium expedita ipsam eos quia illo excepturi soluta at in a cumque!</p>
+                <span>Yousef Ahmed</span>
+            </div>
+            
+            <div class="item">
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est repellendus, modi quam consequatur, aperiam doloremque magni autem blanditiis accusantium expedita ipsam eos quia illo excepturi soluta at in a cumque!</p>
+                <span>Taleen Ahmed</span>
+            </div>
+
+            </div>
+            
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-testimonials" data-slide-to="0" class="active">
+                <img src="img/avatar/1.jpeg" alt="" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="1">
+                <img src="img/avatar/2.jpeg" alt="" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="2">
+                <img src="img/avatar/3.jpeg" alt="" />
+            </li>
+            <li data-target="#carousel-testimonials" data-slide-to="3">
+                <img src="img/avatar/4.jpeg" alt="" />
+            </li>
+          </ol>
+
+          <!-- Controls 
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a> 
+
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a> -->
+        </div>
+
+   </div>
+</section>
+
+
+
+<!-- ==================================================================== -->
+
+
+<section class="Price_table text-center">
+    <div class="container">
+        <h2>Our Amazing Prices</h2>
+        
+        <div class="row">
+           
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="380">
+                    <h3 class="text-primary">Plan #1</h3>
+                    <p class="center-block">$40</p>
+                    <ul class="list-unstyled">
+                        <li>space: 30GB</li>
+                        <li>Emails: 20</li>
+                        <li>Database: 10</li>
+                        <li>Ftp Account: 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="380">
+                    <h3 class="text-success">Plan #2</h3>
+                    <p class="center-block">$50</p>
+                    <ul class="list-unstyled">
+                        <li>space: 30GB</li>
+                        <li>Emails: 20</li>
+                        <li>Database: 10</li>
+                        <li>Ftp Account: 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-success">Order Now</a>
+                </div>
+            </div>
+            
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price_box wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="380">
+                    <h3 class="text-info">Plan #3</h3>
+                    <p class="center-block">$60</p>
+                    <ul class="list-unstyled">
+                        <li>space: 30GB</li>
+                        <li>Emails: 20</li>
+                        <li>Database: 10</li>
+                        <li>Ftp Account: 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-info">Order Now</a>
+                </div>
+            </div>
+        
+            <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="price_box wow fadeInDown" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="380">
+                    <h3 class="text-danger">Plan #4</h3>
+                    <p class="center-block">$70</p>
+                    <ul class="list-unstyled">
+                        <li>space: 30GB</li>
+                        <li>Emails: 20</li>
+                        <li>Database: 10</li>
+                        <li>Ftp Account: 5</li>
+                    </ul>
+                    <a href="#" class="btn btn-danger">Order Now</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- ==================================================================== -->
+
+
+<section class="our-team text-center">
+    <div class="container">
+       <h2> Meet Our Team</h2>
+       
+        <div class="row">
+          
+           <div class="col-lg-3 col-sm-6">
+               <div class="person wow pulse" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="400">
+                   <img class="img-circle" src="img/clients-6.jpg" alt="" />
+                   <h3>Ahmed Fathi</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vel ex dicta, cumque placeat.</p>
+                   <i class="fa fa-google-plus-square fa-lg"></i>
+                   <i class="fa fa-facebook-square fa-lg"></i>
+                   <i class="fa fa-twitter-square fa-lg"></i>
+                   <i class="fa fa-youtube-square fa-lg"></i>
+                </div>
+           </div>
+           
+           <div class="col-lg-3 col-sm-6">
+               <div class="person wow pulse" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="400">
+                   <img class="img-circle" src="img/clients-7.jpg" alt="" />
+                   <h3>Malak Ahmed</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vel ex dicta, cumque placeat.</p>
+                   <i class="fa fa-google-plus-square fa-lg"></i>
+                   <i class="fa fa-facebook-square fa-lg"></i>
+                   <i class="fa fa-twitter-square fa-lg"></i>
+                   <i class="fa fa-youtube-square fa-lg"></i>
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-sm-6">
+               <div class="person wow pulse" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="400">
+                   <img class="img-circle" src="img/clients-8.jpg" alt="" />
+                   <h3>Yousef Ahmed</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vel ex dicta, cumque placeat.</p>
+                   <i class="fa fa-google-plus-square fa-lg"></i>
+                   <i class="fa fa-facebook-square fa-lg"></i>
+                   <i class="fa fa-twitter-square fa-lg"></i>
+                   <i class="fa fa-youtube-square fa-lg"></i>
+               </div>
+           </div>
+           
+           <div class="col-lg-3 col-sm-6">
+               <div class="person wow pulse" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="400">
+                   <img class="img-circle" src="img/clients-6.jpg" alt="" />
+                   <h3>Taleen Ahmed</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia vel ex dicta, cumque placeat.</p>
+                   <i class="fa fa-google-plus-square fa-lg"></i>
+                   <i class="fa fa-facebook-square fa-lg"></i>
+                   <i class="fa fa-twitter-square fa-lg"></i>
+                   <i class="fa fa-youtube-square fa-lg"></i>
+               </div>
+           </div>
+    
+        </div>
+    </div>
+</section>
+
+
+<!-- ==================================================================== -->
+
+
+
+<section class="subscribe text-center wow fadeInUp" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="420">
+    <div class="container">
+        <h2>Keep In Touch</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, repellat dignissimos ad consequatur ex, enim. Aliquid dolore adipisci velit in, eaque reiciendis quam!</p>
+        <form class="form-inline">
+            <div class="input-group margin-bottom-sm">
+              <span class="input-group-addon"><i class="fa fa-user fa-lg"></i></span>
+              <input class="form-control input-lg" type="text" placeholder="Your Name">
+            </div>
+            <div class="input-group margin-bottom-sm">
+              <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw"></i></span>
+              <input class="form-control input-lg" type="text" placeholder="Email address">
+            </div>
+            <bottom class="btn btn-danger btn-lg"><i class="fa fa-edit fa-lg"></i> subscribe</bottom>
+        </form>
+        
+    </div>
+</section>
+
+
+
+
+
+<!-- ==================================================================== -->
+    
+    
+  <section class="Statistics text-center wow shake" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="440">
+     <div class="alpha">
+          <div class="container">
+             <h2>Our Main Statistics</h2>
+              <div class="row">
+                  
+                  <div class="col-md-3 col-sm-6">
+                      <div class="stats">
+                          <i class="fa fa-users fa-5x"></i>
+                          <p>9,500</p>
+                          <span>Users</span>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6">
+                      <div class="stats">
+                          <i class="fa fa-comments fa-5x"></i>
+                          <p>25,600</p>
+                          <span>Posted Comments</span>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6">
+                      <div class="stats">
+                          <i class="fa fa-suitcase fa-5x"></i>
+                          <p>36,000</p>
+                          <span>Projects Done</span>
+                      </div>
+                  </div>
+                  
+                  <div class="col-md-3 col-sm-6">
+                      <div class="stats">
+                          <i class="fa fa-support fa-5x"></i>
+                          <p>95,000</p>
+                          <span>Tickets Archived</span>
+                      </div>
+                  </div>
+                  
+              </div>
+          </div>
+      </div>
+  </section>  
+    
+    
+    
+    
+    
+<!-- ==================================================================== -->
+
+    
+    
+<section class="our-Skills wow fadeInDwon" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="450">
+    <div class="container">
+        <h2 class="text-center">Our Skills</h2>
+        
+        <div class="row">
+            
+            <div class="col-md-5">
+                <div class="skills-progress">
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                        Digital Marketing Nanodegree
+                        </div>
+                    </div>
+                    
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                        Front Wed Designer
+                        </div>
+                    </div>
+                    
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                        Full Stack Web Developer
+                        </div>
+                    </div>
+                    
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" style="width:76%">
+                        Graphics designer
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-md-offset-1">
+                <div class="skills-info">
+                    <h3>About The Team</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem tenetur nihil sit a rerum. Saepe dolores, molestias atque recusandae aperiam voluptates eius quia quas. Voluptatibus nesciunt cum similique suscipit! Voluptatem?</p>
+                    <button type="button" class="btn btn-primary">Talk With Professionals</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+    
+    
+    
+<!-- ==================================================================== -->
+
+
+<section class="contact-us text-center wow bounceInLeft" data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="460">
+    <div class="layer">
+       <div class="container">
+         <div class="row">
+         
+              <i class="fa fa-headphones fa-5x"></i>
+               <h2>Tell Us What You Feel?</h2>
+               <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus eaque consectetur odit vel repellat sit sed earum, culpa, similique, illum dolor optio amet excepturi reiciendis vero aliquid rem quaerat quidem.</p>
+
+               <form role="form">
+                  <div class="col-md-6">
+                       <div class="form-group">
+                           <input type="text" class="form-control input-lg" placeholder="User Name">
+                       </div>
+                       <div class="form-group">
+                           <input type="text" class="form-control input-lg" placeholder="Email">
+                       </div>
+                       <div class="form-group">
+                           <input type="text" class="form-control input-lg" placeholder="Phone Number">
+                       </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="form-group">
+                          <textarea class="form-control input-lg" placeholder="Your Message"></textarea>
+                      </div>
+                      <button type="button" class="btn btn-danger btn-lg btn-block">Send Your Message</button>
+                  </div>
+               </form>
+           
+         </div>
+       </div>
+    </div>
+</section>
+
+
+
+
+<!-- ==================================================================== -->
+
+
+   <section class="Our-clients text-center">
+       <div class="container">
+          <h2>Our Clients</h2>
+           <div class="row">
+               <ul class="list-unstyled">
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-6.jpg" alt=""/>
+                   </li>
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-7.jpg" alt=""/>
+                   </li>
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-8.jpg" alt=""/>
+                   </li>
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-6.jpg" alt=""/>
+                   </li>
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-7.jpg" alt=""/>
+                   </li>
+                   <li class="col-md-2 col-xs-4">
+                       <img class="img-responsive center-block" src="img/clients-8.jpg" alt=""/>
+                   </li>
+               </ul>
+           </div>
+       </div>
+   </section>
+   
+   
+   
+    
+    
+<!-- ==================================================================== -->
+
+
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+               <h3 class="h1">Sitmap</h3> 
+               <ul class="list-unstyled three-columns">
+                   <li>Home</li>
+                   <li>About</li>
+                   <li>Services</li>
+                   <li>Products</li>
+                   <li>Departments</li>
+                   <li>Solutions</li>
+                   <li>Design</li>
+                   <li>Host</li>
+                   <li>Contact Us</li>
+               </ul>
+               <ul class="list-unstyled soical-list">
+                   <li><img src="img/Scoial/Youtube.png" alt="" /></li>
+                   <li><img src="img/Scoial/facebook-icon.png" alt="" /></li>
+                   <li><img src="img/Scoial/instagram.png" alt="" /></li>
+                   <li><img src="img/Scoial/twitter.png" alt="" /></li>
+                   <li><img src="img/Scoial/mail.png" alt="" /></li>
+                   <li><img src="img/Scoial/WhatsApp.png" alt="" /></li>
+               </ul>
+            </div>
+            
+            <div class="col-lg-4 col-md-6">
+                <h3>Latest Articles</h3>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/clients-6.jpg" alt="" />
+                    </a>
+                    <div class="media-body">
+                        <h4 class="mt-0 mb-1">Programming</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deserunt dolore, nam, tempora architecto cumque.
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/clients-7.jpg" alt="" />
+                    </a>
+                    <div class="media-body">
+                        <h4 class="mt-0 mb-1">Web Design</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deserunt dolore, nam, tempora architecto cumque.
+                    </div>
+                </div>
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="img/clients-8.jpg" alt="" />
+                    </a>
+                    <div class="media-body">
+                        <h4 class="mt-0 mb-1">Coding</h4>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur deserunt dolore, nam, tempora architecto cumque.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <h3>Our Awesome Work</h3>
+                <img class="img-thumbnail" src="img/clients-6.jpg" alt="" />
+                <img class="img-thumbnail" src="img/clients-7.jpg" alt="" />
+                <img class="img-thumbnail" src="img/clients-8.jpg" alt="" />
+                <img class="img-thumbnail" src="img/clients-6.jpg" alt="" />
+            </div>
+        
+        </div>
+
+            <div class="copyright text-center">
+                Copyright &copy; 2019, Designed By<spam> Ahmed Fathi.</spam>
+            </div>
+    </div>
+</section>
+
+
+
+<!-- ==================================================================== -->
+
+<section class="loading-overlay">
+    <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</section>
+
+
+<!-- ==================================================================== -->
+  <Div id="scrollTop">
+      <i class="fa fa-chevron-up fa-3x"></i>
+  </Div>  
+    
+<!-- ==================================================================== -->
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script> new WOW().init();</script>
+    
+    <script src="js/jquery.nicescroll.min.js"></script>
+
+</body>
+</html>

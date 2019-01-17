@@ -1,0 +1,164 @@
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus 
+{
+    color: #FFF;
+    background-color: orangered;
+}
+
+
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus 
+{
+    color: #d02121;
+    background-color: #080808;
+}
+
+
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus
+{
+    color: #FFF;
+    text-decoration: none;
+    background-color: orangered;
+}
+
+
+.option-box .color-option
+{
+    border: 2px solid orangered;
+}
+
+.option-box .gear-check
+{
+    background: orangered;
+}
+
+/*******==========================================*******/
+
+
+.carousel-caption p
+{
+    color:#000
+}
+
+.carousel-indicators li
+{
+    background: orangered
+}
+
+
+/*******==========================================*******/
+.navbar-inverse .navbar-brand,
+.about,
+.about p span,
+.Features h2,
+.Features .feat span.glyphicon,
+.Testimonials span,
+.our-team h2,
+.our-team .person h3,
+.subscribe h2,
+.our-Skills h2,
+.Our-clients h2
+
+{
+    color: orangered
+}
+
+
+.about .lead
+{
+    color:#888;
+}
+
+/*******==========================================*******/
+
+
+.Features .feat h4
+{
+    color:#91482c
+}
+
+/*******==========================================*******/
+
+.Testimonials .carousel-indicators li
+{
+    border: 2px solid orangered;
+
+}
+
+/*******==========================================*******/
+
+.Price_table
+{
+    background: #EEE;
+}
+
+.price_box
+{
+    background: #FFF;
+    border: 1px solid #DDD;
+}
+
+.Price_table .price_box p
+{
+    background: orangered;
+    color: #FFF;
+    border: 2px solid #105060;
+}
+
+/*******==========================================*******/
+
+.our-team .person img
+{
+    border: 4px solid orangered;
+}
+
+/*******==========================================*******/
+
+
+
+.Statistics .stats
+{
+    color: #002244;
+}
+
+.Statistics .stats:hover
+{
+    color: #FFF
+}
+
+.Statistics h2
+{
+    color: orange
+}
+
+/*******==========================================*******/
+
+.our-Skills h3
+{
+    color:dodgerblue;
+}
+
+
+
+/*******==========================================*******/
+
+.contact-us h2
+{
+    color: #FFF
+}
+
+.contact-us p
+{
+    color:darkgray;
+}
+
+
+/*******==========================================*******/
+
+.footer h3
+{
+    color: #0895D1;
+}

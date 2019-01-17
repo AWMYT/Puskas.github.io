@@ -1,0 +1,70 @@
+.breadcrumb 
+{
+    padding: 10px 0px;
+    margin: 0px;
+    list-style: none;
+    background-color: #F5F5F5;
+	
+}
+
+.breadcrumb-item
+{
+	font-size: 18px;
+}
+
+
+/* =================================================================*/
+.FAQ
+{
+	padding: 40px 0px;
+}
+
+
+.FAQ h1
+{
+	font-size: 50px;
+	font-weight: bold;
+	letter-spacing: -2px;
+}
+
+.FAQ h1 ~ hr
+{
+	width: 70%;
+}
+
+
+/* =========================================================================*/
+
+.faq-questions .panel-heading
+{
+	padding: 20px 15px;
+}
+
+.faq-questions .panel-title
+{
+	font-size: 20px;
+	font-weight: bold
+}
+
+.faq-questions .panel-body
+{
+	font-size: 16px;
+	text-align: justify;
+	padding: 20px;
+}
+
+
+.faq-questions .panel-heading a:after
+{
+    font-family: 'Glyphicons Halflings';
+	content: "\e022";
+	float: right;
+	color: #444;
+}
+
+
+.faq-questions .panel-heading a.collapsed:after
+{
+	content: "\e130";
+	color: orangered;
+}

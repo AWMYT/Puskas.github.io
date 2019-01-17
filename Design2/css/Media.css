@@ -1,0 +1,90 @@
+/*===========Media Query=============================*/
+
+
+/* for Mobile */
+@media(max-width : 767px)
+{
+    .navbar-nav > li > a 
+    {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    
+     .subscribe .input-group .form-control
+    {
+        width: 370px;
+        margin-bottom: 5px;
+     }
+    
+    .input-group-addon
+    {
+        margin-bottom: 0px;
+    }
+    
+    .subscribe .btn-danger
+    {
+        width: 150px;
+        margin: 5px auto;
+    }
+    
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+    {
+        max-height: none;
+    }
+        
+}
+
+
+/* Small Screen*/
+@media(min-width : 768px) and (max-width : 991px) 
+{
+    h1,h2
+    {
+        color:dodgerblue !important;
+    }
+    
+    .subscribe .input-group .form-control
+    {
+        width: 250px;
+     }
+    
+    .subscribe .btn-danger
+    {
+        width: 150px;
+        margin: 10px auto;
+    }
+    
+}
+
+/* Medium Screen*/
+@media(min-width : 992px) and (max-width : 1199px) 
+{
+    h1,h2
+    {
+        color:deeppink !important;
+    }
+    
+    .subscribe .input-group .form-control
+    {
+        width: 306px;
+     }
+    
+    .subscribe .btn-danger
+    {
+        width: 150px;
+        margin: 10px auto;
+    }
+    
+    
+   
+}
+
+
+/* Large Screen */
+@media(min-width : 1200px)
+{
+    h1,h2
+    {
+        color: blue !important;
+    }
+}
